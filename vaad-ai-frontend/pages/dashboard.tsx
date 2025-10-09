@@ -104,7 +104,7 @@ const DashboardPage = () => {
 
       <footer className="w-full p-6 bg-white/5 backdrop-blur-xl text-center border-t border-white/10 mt-auto">
         <p className="text-gray-400">
-          &copy; 2025 VAAD AI-0G. Built on Thursday, October 9, 2025, 11:53 AM WAT. All rights reserved.
+          &copy; 2025 VAAD AI-0G.
         </p>
       </footer>
     </div>
