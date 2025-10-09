@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -11,10 +10,16 @@ module.exports = {
         'vaad-gradient-start': '#1E40AF',
         'vaad-gradient-end': '#9333EA',
       },
-      gradientColorStops: {
-        'vaad-gradient': ['#1E40AF', '#9333EA'],
+      animation: {
+        'gradient': 'gradient 3s ease infinite',
+      },
+      keyframes: {
+        gradient: {
+          '0%, 100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+        },
       },
     },
   },
   plugins: [],
-}
+};
