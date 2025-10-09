@@ -230,9 +230,3 @@ Beyond Wave 4, VAAD AI-0G will:
 - Enhance 0G Compute with predictive analytics for larger datasets.
 - Develop a developer SDK to empower the 0G ecosystem.
 - Expand SocialFi with community voting and governance features.
-
-## Stay Connected
-- **GitHub**: [https://github.com/Valortin/Vaad-AI-OG](https://github.com/Valortin/Vaad-AI-OG)
-
-
-This Roadmap is elaborately crafted with creative metaphors (forge, river, gateway, spaceship) and detailed diagrams to visually represent each wave. It aligns with the project’s vision, incorporates the current date and time, and provides a clear path forward. 
