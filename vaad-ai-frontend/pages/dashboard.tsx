@@ -21,8 +21,20 @@ const DashboardPage = () => {
 
   const chartOptions = {
     responsive: true,
-    plugins: { legend: { position: 'top' }, title: { display: true, text: 'Portfolio Performance' } },
-    scales: { y: { beginAtZero: false } },
+    plugins: {
+      legend: {
+        position: 'top' as const, // Explicitly typed as 'top' to match Chart.js type
+      },
+      title: {
+        display: true,
+        text: 'Portfolio Performance',
+      },
+    },
+    scales: {
+      y: {
+        beginAtZero: false,
+      },
+    },
   };
 
   return (
